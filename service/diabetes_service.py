@@ -17,8 +17,9 @@ def diabetes_prediction(data: PatientDiabetesData):
         data.skinthickness,
         data.insulin,
         data.bmi,
+        data.diabetespedigreefuntion,
         data.age
-    ]).reshape(1, 7)
+    ]).reshape(1, 8)
 
     print("xin shape:", xin.shape)
 

@@ -9,7 +9,7 @@ async def predict(data: PatientDiabetesData):
     prediction = diabetes_prediction(data)
 
     result =PatientDiabetesOutput(
-        firt_name=data.firt_name,
+        first_name=data.first_name,
         last_name=data.last_name,
         prediction=prediction
     )
